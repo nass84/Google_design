@@ -1,3 +1,4 @@
+
 .navlink {
     color:black;
     text-decoration-line: initial;
@@ -9,8 +10,11 @@
     text-decoration-line: underline;
 }
 
-#div_google { /* image doesnt appear centered*/
-    display: block;
+
+#div_google {  
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
     margin-top: 100px;
     margin-left: auto;
     margin-right: auto;
@@ -19,7 +23,10 @@
 }
 
 #div_search {
-    display: block;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
@@ -30,25 +37,32 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    colour:blue;
     font-size: 15px;
     text-align: center;
     }
 
   #nest_link { /* Need to move the text next to image */
-    color: darkblue;
+    color: blue;
     text-decoration-line: initial;
   }
 
     #nest_link:hover {
     text-decoration-line: underline;
+    color: black;
 }
 
 #site-search {
     width: 400px;
     height: 40px;
-    display: block;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 20px;;
     border-style: solid;
     border-radius: 20px;
     border-color: rgba(126, 122, 122, 0.096);
