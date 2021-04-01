@@ -1,0 +1,59 @@
+.navlink {
+    color:black;
+    text-decoration-line: initial;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.navlink:hover {
+    text-decoration-line: underline;
+}
+
+#div_google { /* image doesnt appear centered*/
+    display: block;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    
+}
+
+#div_search {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    
+}
+
+#div_nest {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 15px;
+    text-align: center;
+    }
+
+  #nest_link { /* Need to move the text next to image */
+    color: darkblue;
+    text-decoration-line: initial;
+  }
+
+    #nest_link:hover {
+    text-decoration-line: underline;
+}
+
+#site-search {
+    width: 400px;
+    height: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: rgba(126, 122, 122, 0.096);
+    border-width: 3px;
+}
+
+.divider { /* https://stackoverflow.com/questions/5119711/whats-the-easiest-way-to-put-space-between-2-side-by-side-buttons-in-asp-net/5119809*/
+    margin-left:10px;}
