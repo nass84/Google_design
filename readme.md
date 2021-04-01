@@ -24,7 +24,7 @@ Unfortunately my partners internet kept cutting out so we weren't able to do muc
 
 Used [Stack](https://stackoverflow.com/questions/48473177/centering-3-images-in-css) to find out how to center the image, it recommended using Flex Box. 
 
-![Google Center](https://twitter.com/boredinbrum/status/1377529426607546368/photo/1)  
+![Google Center](https://pbs.twimg.com/media/Ex33sWJWgAMsYZm?format=jpg&name=900x900)  
 
 - [ ] Check if my solution for the hover link was accurate  
 > text-decoration-line: initial  
