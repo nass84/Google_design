@@ -17,5 +17,15 @@ Unfortunately my partners internet kept cutting out so we weren't able to do muc
 ### Still to do
 - [ ] Check if my solution for the hover link was accurate  
 > text-decoration-line: initial  
-- [ ] Figure out why the images arent in the center  
+- [x] Figure out why the images arent in the center  
 - [ ] Try and seperate the links on the top to put space between them.  
+
+01.04.21
+
+Used Stack to find out how to center the image, it recommended using Flex Box. 
+
+- [ ] Check if my solution for the hover link was accurate  
+> text-decoration-line: initial  
+- [x] Figure out why the images arent in the center  
+- [ ] Try and seperate the links on the top to put space between them.  
+- [ ] Do the CSS flex box modules on free code camp to understand the center solution
